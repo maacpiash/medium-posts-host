@@ -1,0 +1,23 @@
+{
+  "name": "medium-posts-host",
+  "version": "1.0.0",
+  "description": "A host for the `Writing` section of my personal website",
+  "main": "out/index.js",
+  "repository": "https://github.com/maacpiash/medium-posts-host.git",
+  "author": "Ahad Chowdhury <ahadc@maacpiash.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -r out",
+    "start": "tsc && node out/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "express": "^4.17.1"
+  }
+}
